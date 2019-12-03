@@ -7,7 +7,6 @@ package days;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Day02_1 {
@@ -21,11 +20,11 @@ public class Day02_1 {
 		scanner.close();
 		// convert String to int array
 		int[] array = new int[temp.length];
-		int location = 0;
-		for(String x : temp) {
-			array[location] = Integer.parseInt(x);
+		for(int location = 0; location < temp.length; location++) {
+			array[location] = Integer.parseInt(temp[location]);
 		}
-		location = -1;
+		// starting inputs
+		array[1] = 12; array[2] = 2;
 		// start code
 		for(int position = 0; position < array.length; position += 4) {
 			// if "opcode" is 1, sum
