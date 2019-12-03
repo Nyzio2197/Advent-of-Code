@@ -23,6 +23,8 @@ public class Day02_1 {
 		for(int location = 0; location < temp.length; location++) {
 			array[location] = Integer.parseInt(temp[location]);
 		}
+		// starting inputs
+		array[1] = 12; array[2] = 2;
 		// start code
 		for(int position = 0; position < array.length; position += 4) {
 			// if "opcode" is 1, sum
