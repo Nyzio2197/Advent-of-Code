@@ -1,7 +1,7 @@
 // Alan Xiao
 // github.com/alandaboi
-// started on: December 3rd, 2019
-// finished on: December 3rd, 2019
+// started on: December 3, 2019
+// finished on: December 3, 2019
 
 package days;
 
